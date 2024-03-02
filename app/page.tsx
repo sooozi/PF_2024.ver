@@ -2,7 +2,7 @@
 import { createGlobalStyle } from 'styled-components';
 import reset from 'styled-reset';
 import Footer from './components/layout/footer';
-import Header from './components/layout/header';
+import HeaderLayout from './components/layout/header';
 
 const GlobalStyle = createGlobalStyle`
   ${reset}
@@ -12,7 +12,7 @@ const GlobalStyle = createGlobalStyle`
 export default function Layout() {
   return (
     <div>
-      <Header />
+      <HeaderLayout />
       <h1>Layout by soozi ddd</h1>
       <Footer />
     </div>

@@ -1,3 +1,3 @@
-export default function Header() {
-    return <h1>Header Layout</h1>
+export default function HeaderLayout() {
+    return <header>Header Layout</header>
 }

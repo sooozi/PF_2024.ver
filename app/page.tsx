@@ -1,7 +1,7 @@
 'use client'
 import { createGlobalStyle } from 'styled-components';
 import reset from 'styled-reset';
-import Footer from './components/layout/footer';
+import FooterLayout from './components/layout/footer';
 import HeaderLayout from './components/layout/header';
 
 const GlobalStyle = createGlobalStyle`
@@ -14,7 +14,7 @@ export default function Layout() {
     <div>
       <HeaderLayout />
       <h1>Layout by soozi ddd</h1>
-      <Footer />
+      <FooterLayout />
     </div>
   );
 }

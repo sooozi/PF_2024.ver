@@ -1,3 +1,7 @@
-export default function Footer() {
-    return <h1>Footer Layout</h1>
+export default function FooterLayout() {
+    return (
+        <footer>
+            Footer Layout
+        </footer>
+    )
 }

@@ -3,6 +3,7 @@
 /* css import */
 import { createGlobalStyle } from 'styled-components';
 import reset from 'styled-reset';
+import styles from '../src/style/common.module.scss';
 
 /* icon import */
 import FooterLayout from './components/layout/footer';
@@ -15,7 +16,7 @@ const GlobalStyle = createGlobalStyle`
 
 export default function Layout() {
   return (
-    <div id="wrap">
+    <div className={styles.bodyWrap}>
       <HeaderLayout />
       <h1>Layout by soozi</h1>
       <span>Layout by soozi</span>

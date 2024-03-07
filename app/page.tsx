@@ -21,8 +21,6 @@ export default function Layout() {
       <h1>Layout by soozi</h1>
       <span>Layout by soozi</span>
       <span>Layout by soozi</span>
-      <span>Layout by soozi</span>
-      <span>Layout by soozi</span>
       <FooterLayout />
     </div>
   );

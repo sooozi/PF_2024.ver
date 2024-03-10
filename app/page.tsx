@@ -19,6 +19,9 @@ export default function Layout() {
     <div className={styles.bodyWrap}>
       <HeaderLayout />
       <h1>Layout by soozi</h1>
+      <h1>Layout by soozi</h1>
+      <h1>Layout by soozi</h1>
+      <h1>Layout by soozi</h1>
       <span>Layout by soozi</span>
       <FooterLayout />
     </div>

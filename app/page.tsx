@@ -4,6 +4,7 @@
 import { createGlobalStyle } from 'styled-components';
 import reset from 'styled-reset';
 import styles from '../src/style/common.module.scss';
+import '../src/style/global.scss';
 
 /* icon import */
 import FooterLayout from './components/layout/footer';
@@ -18,9 +19,6 @@ export default function Layout() {
   return (
     <div className={styles.bodyWrap}>
       <HeaderLayout />
-      <h1>Layout by soozi</h1>
-      <h1>Layout by soozi</h1>
-      <h1>Layout by soozi</h1>
       <h1>Layout by soozi</h1>
       <span>Layout by soozi</span>
       <FooterLayout />

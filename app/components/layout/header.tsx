@@ -20,7 +20,7 @@ export default function HeaderLayout() {
                 <p className={style.btn_item}>Help</p>
                 </div>
             </div>
-            <p className={style.window_title}>Heeae Park - Visual Studio Code</p>
+            <p className={style.window_title}>Soozi - Visual Studio Code</p>
             <div className={style.window_ic_wrap}>
                 <span className={`${style.window_ic} ${style.window_ic__red}`}></span>
                 <span className={`${style.window_ic} ${style.window_ic__yellow}`}></span>

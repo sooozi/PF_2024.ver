@@ -9,6 +9,7 @@ import '../src/style/global.scss';
 /* icon import */
 import FooterLayout from './components/layout/footer';
 import HeaderLayout from './components/layout/header';
+import SideNavLayout from './components/layout/sideNav';
 
 const GlobalStyle = createGlobalStyle`
   ${reset}
@@ -19,8 +20,13 @@ export default function Layout() {
   return (
     <div className={styles.bodyWrap}>
       <HeaderLayout />
-      <h1>Layout by soozi</h1>
-      <span>Layout by soozi</span>
+      <div id="wrap">
+        <SideNavLayout />
+        
+        <h1>Layout by soozi</h1>
+        <span>Layout by soozi</span>
+        
+      </div>
       <FooterLayout />
     </div>
   );

@@ -8,7 +8,7 @@ import VscodeIcon from "@/public/img/header/VscodeLogo";
 export default function HeaderLayout() {
     return (
         <header className={style.windowbar}>
-            <div className="inner_wr">
+            <div className="header_inner inner_wrap">
                 <div className={style.window_btn_wrap}>
                     <VscodeIcon className={style.icon} fill={'#2196f3'} />
                     <div className={style.btn_items}>

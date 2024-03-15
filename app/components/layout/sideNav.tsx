@@ -3,7 +3,7 @@ export default function SideNavLayout() {
         <nav>
             Side Navigation
             <div className="side_nav nav_icon">
-
+                
             </div>
             <div className="side_nav nav_editor">
                 

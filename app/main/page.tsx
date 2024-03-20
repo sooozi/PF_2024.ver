@@ -1,3 +1,13 @@
+/* css import */
+import styles from '../src/style/common.module.scss';
+import '../src/style/global.scss';
+
+/* icon import */
+
 export default function Home() {
-    return <h1>Home by soozi ddd</h1>
-  }
+    return (
+        <div className={styles.bodyWrap}>
+            <h2>home page</h2>
+        </div>
+    );
+}

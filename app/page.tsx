@@ -21,10 +21,10 @@ export default function Layout() {
   return (
     <div className={styles.bodyWrap}>
       <HeaderLayout />
-      <div id="wrap">
+      <body id="wrap">
         <SideNavLayout />
         <Home />        
-      </div>
+      </body>
       <FooterLayout />
     </div>
   );

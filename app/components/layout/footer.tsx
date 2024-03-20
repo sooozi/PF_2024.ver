@@ -30,8 +30,6 @@ export default function FooterLayout() {
                 <div className="cont_box">
 
                 </div>
-
-                Footer Layout
             </div>
         </footer>
     )

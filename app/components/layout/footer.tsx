@@ -11,18 +11,23 @@ export default function FooterLayout() {
                     <div className={style.remote_box}>
 
                     </div>
+
                     <div className={style.branch_box}>
 
                     </div>
+
                     <div className={style.problem_box}>
 
                     </div>
+
                     <div className={style.port_box}>
 
                     </div>
+
                     <div className={style.debug_box}>
 
                     </div>
+                    
                     <div className={style.scan_box}>
 
                     </div>

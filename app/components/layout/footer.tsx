@@ -27,7 +27,19 @@ export default function FooterLayout() {
                     <div className={style.debug_box}>
 
                     </div>
-                    
+
+                    <div className={style.scan_box}>
+
+                    </div>
+                    <div className={style.scan_box}>
+
+                    </div>
+                    <div className={style.scan_box}>
+
+                    </div>
+                    <div className={style.scan_box}>
+
+                    </div>
                     <div className={style.scan_box}>
 
                     </div>

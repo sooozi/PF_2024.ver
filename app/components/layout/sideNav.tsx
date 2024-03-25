@@ -1,9 +1,13 @@
+/* css import */
+import style from '/src/style/layout.module.scss';
+
+/* icon import */
 export default function SideNavLayout() {
     return (
         <nav>
             <div className="side_nav_wrap nav_icon">
                 <ul className="icon_list">
-                    <li className="icon_explore icon_box"></li>
+                    <li className={style.icon_explore}></li>
                     <li className="icon_search icon_box"></li>
                     <li className="icon_control icon_box"></li>
                     <li className="icon_debug icon_box"></li>

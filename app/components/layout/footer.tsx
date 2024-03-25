@@ -8,39 +8,27 @@ export default function FooterLayout() {
         <footer className={style.footer}>
             <div className="footer_inner inner_wrap">
                 <div className="cont_box icon_box">
-                    <div className={style.remote_box}>
+                    <div className={style.icon_remote_open}>
 
                     </div>
 
-                    <div className={style.branch_box}>
+                    <div className={style.icon_main}>
 
                     </div>
 
-                    <div className={style.problem_box}>
+                    <div className={style.icon_sync}>
 
                     </div>
 
-                    <div className={style.port_box}>
+                    <div className={style.icon_problem}>
 
                     </div>
 
-                    <div className={style.debug_box}>
+                    <div className={style.icon_port}>
 
                     </div>
 
-                    <div className={style.scan_box}>
-
-                    </div>
-                    <div className={style.scan_box}>
-
-                    </div>
-                    <div className={style.scan_box}>
-
-                    </div>
-                    <div className={style.scan_box}>
-
-                    </div>
-                    <div className={style.scan_box}>
+                    <div className={style.icon_state}>
 
                     </div>
                 </div>

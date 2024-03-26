@@ -2,6 +2,7 @@
 import style from '/src/style/layout.module.scss';
 
 /* icon import */
+import AccountIcon from "@/public/img/footer/AccountIcon";
 
 export default function FooterLayout() {
     return (
@@ -9,7 +10,7 @@ export default function FooterLayout() {
             <div className="footer_inner inner_wrap">
                 <div className="cont_box icon_box">
                     <div className={style.icon_remote_open}>
-
+                        <AccountIcon className={style.icon} fill={'#2196f3'} />
                     </div>
 
                     <div className={style.icon_main}>

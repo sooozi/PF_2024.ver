@@ -8,21 +8,19 @@ export default function SideNavLayout() {
             <div className="side_nav_wrap nav_icon">
                 <ul className="icon_list">
                     <li className={style.icon_explore}></li>
-                    <li className="icon_search icon_box"></li>
-                    <li className="icon_control icon_box"></li>
-                    <li className="icon_debug icon_box"></li>
-                    <li className="icon_remote icon_box"></li>
-                    <li className="icon_expantion icon_box"></li>
+                    <li className={style.icon_search}></li>
+                    <li className={style.icon_control}></li>
+                    <li className={style.icon_debug}></li>
+                    <li className={style.icon_remote}></li>
+                    <li className={style.icon_expantion}></li>
                 </ul>
             </div>
             <div className="side_nav_wrap nav_editor">
                 <ul className="icon_list">
-                    <li className="icon_explore icon_box"></li>
-                    <li className="icon_search icon_box"></li>
-                    <li className="icon_control icon_box"></li>
-                    <li className="icon_debug icon_box"></li>
-                    <li className="icon_remote icon_box"></li>
-                    <li className="icon_expantion icon_box"></li>
+                    <li className={style.icon_incoding}></li>
+                    <li className={style.icon_language}></li>
+                    <li className={style.icon_goLive}></li>
+                    <li className={style.icon_alarm}></li>
                 </ul>
             </div>
         </nav>

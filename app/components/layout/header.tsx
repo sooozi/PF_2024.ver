@@ -19,6 +19,8 @@ export default function HeaderLayout() {
                         <p className={style.btn_item}>Run</p>
                         <p className={style.btn_item}>Terminal</p>
                         <p className={style.btn_item}>Help</p>
+                        <p className={style.btn_item}>Help</p>
+                        <p className={style.btn_item}>Help</p>
                     </div>
                 </div>
                 <p className={style.window_title}>SooZI - Visual Studio Code</p>

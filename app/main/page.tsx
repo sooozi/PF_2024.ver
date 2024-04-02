@@ -1,6 +1,6 @@
 /* css import */
-import styles from '../src/style/common.module.scss';
-import '../src/style/global.scss';
+import styles from '/src/style/common.module.scss';
+import '/src/style/global.scss';
 
 /* icon import */
 

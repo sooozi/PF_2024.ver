@@ -3,7 +3,7 @@
 /* css import */
 import { createGlobalStyle } from 'styled-components';
 import reset from 'styled-reset';
-import styles from '/src/style/common.module.scss';
+import style from '/src/style/common.module.scss';
 import '/src/style/global.scss';
 
 /* page import */
@@ -19,12 +19,12 @@ const GlobalStyle = createGlobalStyle`
 
 export default function Layout() {
   return (
-    <div className={styles.bodyWrap}>
+    <div>
       <HeaderLayout />
-      <body id="wrap">
+      <div className={style.bodyWrap}>
         <SideNavLayout />
         <Home />        
-      </body>
+      </div>
       <FooterLayout />
     </div>
   );

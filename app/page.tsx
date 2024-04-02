@@ -20,7 +20,7 @@ const GlobalStyle = createGlobalStyle`
 
 export default function Layout() {
   return (
-    <div>
+    <div id="wrap">
       <HeaderLayout />
       <div className={style.bodyWrap}>
         <SideNavLayout />

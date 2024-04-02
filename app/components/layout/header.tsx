@@ -1,5 +1,5 @@
 /* css import */
-import style from '/src/style/layout.module.scss';
+import style from '../src/style/layout.module.scss';
 
 /* icon import */
 import VscodeIcon from "@/public/img/header/VscodeLogo";
@@ -23,7 +23,7 @@ export default function HeaderLayout() {
                         <p className={style.btn_item}>Help</p>
                     </div>
                 </div>
-                <p className={style.window_title}>SooZi - Visual Studio Code</p>
+                <p className={style.window_title}>SooZieee - Visual Studio Code</p>
                 <div className={style.window_ic_wrap}>
                     <span className={`${style.window_ic} ${style.window_ic__red}`}></span>
                     <span className={`${style.window_ic} ${style.window_ic__yellow}`}></span>

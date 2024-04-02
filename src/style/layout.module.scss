@@ -19,6 +19,11 @@
   font-weight: normal;
   border-bottom: 1px solid #191d20;
 }
+.header_inner {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
 .window_btn_wrap {
   display: flex;
   align-items: center;

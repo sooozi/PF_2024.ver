@@ -5,6 +5,7 @@ import { createGlobalStyle } from 'styled-components';
 import reset from 'styled-reset';
 import style from '/src/style/common.module.scss';
 import '/src/style/global.scss';
+import '/src/style/theme.scss';
 
 /* page import */
 import FooterLayout from './components/layout/footer';

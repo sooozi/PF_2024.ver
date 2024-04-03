@@ -1,5 +1,5 @@
 /* css import */
-import style from '/src/style/layout.module.scss';
+import style from '/src/style/footer.module.scss';
 
 /* icon import */
 import AccountIcon from "@/public/img/footer/AccountIcon";

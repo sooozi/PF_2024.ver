@@ -1,5 +1,5 @@
 /* css import */
-import style from '/src/style/layout.module.scss';
+import style from '/src/style/header.module.scss';
 
 /* icon import */
 import VscodeIcon from "@/public/img/header/VscodeLogo";

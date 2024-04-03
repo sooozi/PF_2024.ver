@@ -1,5 +1,6 @@
 /* css import */
-import style from '/src/style/layout.module.scss';
+import AccountIcon from '@/public/img/footer/AccountIcon';
+import style from '/src/style/sideNav.module.scss';
 
 /* icon import */
 export default function SideNavLayout() {
@@ -13,6 +14,11 @@ export default function SideNavLayout() {
                     <li className={style.icon_debug}></li>
                     <li className={style.icon_remote}></li>
                     <li className={style.icon_expantion}></li>
+                </ul>
+                <ul>
+                    <li>
+                        <AccountIcon className={style.icon} fill={'#79828a'} />
+                    </li>
                 </ul>
             </div>
             <div className="side_nav_wrap nav_editor">

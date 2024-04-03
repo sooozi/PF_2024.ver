@@ -17,7 +17,7 @@ export default function SideNavLayout() {
                 </ul>
                 <ul>
                     <li>
-                        <AccountIcon className={style.icon} fill={'#79828a'} />
+                        <AccountIcon className={style.icon} fill={'rgba(255, 255, 255, 0.5)'} />
                     </li>
                 </ul>
             </div>

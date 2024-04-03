@@ -30,6 +30,11 @@
   justify-content: space-between;
   color: inherit;
 }
+.window_title {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
 .icon {
   width: 20px;
   margin-right: 8px;

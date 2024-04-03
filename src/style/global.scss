@@ -372,3 +372,19 @@ a {
   color: inherit;
   text-decoration: none;
 }
+
+//******************************
+//*        scroll bar          *
+//******************************
+body::-webkit-scrollbar {
+  width: 15px;  /* 스크롤바의 너비 */
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--attributename-text-color-30); /* 스크롤바의 색상 */
+}
+
+body::-webkit-scrollbar-track {
+  background: transparent;  /*스크롤바 뒷 배경 색상*/
+  border: 1px solid var(--bottombar-hover-bg);
+}

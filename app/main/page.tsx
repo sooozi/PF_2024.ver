@@ -6,7 +6,7 @@ import '/src/style/global.scss';
 
 export default function Home() {
     return (
-        <div className={styles.bodyWrap}>
+        <div className={styles.pageWrap}>
             <h2>home page</h2>
         </div>
     );

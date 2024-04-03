@@ -4,7 +4,7 @@ import style from '/src/style/layout.module.scss';
 /* icon import */
 export default function SideNavLayout() {
     return (
-        <nav>
+        <nav className="nav_wrap">
             <div className="side_nav_wrap nav_icon">
                 <ul className="icon_list">
                     <li className={style.icon_explore}></li>

@@ -354,8 +354,6 @@
     display: none;
   }
 
-
-
 *,
 *::before,
 *::after {
@@ -385,6 +383,6 @@ body::-webkit-scrollbar-thumb {
 }
 
 body::-webkit-scrollbar-track {
-  background: transparent;  /*스크롤바 뒷 배경 색상*/
+  background: var(--main-bg);  /*스크롤바 뒷 배경 색상*/
   border: 1px solid var(--bottombar-hover-bg);
 }

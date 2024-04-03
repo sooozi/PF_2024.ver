@@ -6,7 +6,7 @@ import style from '/src/style/sideNav.module.scss';
 export default function SideNavLayout() {
     return (
         <nav className={style.nav_wrap}>
-            <div className="side_nav_wrap nav_icon">
+            <div className={style.side_nav_wrap}>
                 <ul className="icon_list">
                     <li className={style.icon_explore}></li>
                     <li className={style.icon_search}></li>
@@ -17,11 +17,11 @@ export default function SideNavLayout() {
                 </ul>
                 <ul>
                     <li>
-                        <AccountIcon className={style.icon} fill={'rgba(255, 255, 255, 0.5)'} />
+                        <AccountIcon className={style.icon}/>
                     </li>
                 </ul>
             </div>
-            <div className="side_nav_wrap nav_editor">
+            <div className={style.side_nav_wrap}>
                 <ul className="icon_list">
                     <li className={style.icon_incoding}></li>
                     <li className={style.icon_language}></li>

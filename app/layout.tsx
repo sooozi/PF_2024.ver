@@ -1,4 +1,7 @@
 /* css import */
+'use client'
+
+/* css import */
 import style from '/src/style/common.module.scss';
 import '/src/style/global.scss';
 import '/src/style/theme.scss';

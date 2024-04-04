@@ -34,4 +34,4 @@ export default function RootLayout({
 }
 
 // metadata는 여기서 사용됩니다.
-// console.log(metadata);
+console.log(metadata);

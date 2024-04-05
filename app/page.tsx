@@ -3,12 +3,14 @@
 /* css import */
 import { createGlobalStyle } from 'styled-components';
 import reset from 'styled-reset';
+import FooterLayout from './components/layout/footer';
+import HeaderLayout from './components/layout/header';
+import SideNavLayout from './components/layout/sideNav';
+import style from '/src/style/common.module.scss';
 import '/src/style/global.scss';
 import '/src/style/theme.scss';
 
 /* page import */
-import RootLayout from './layout';
-import Home from './main/page';
 
 const GlobalStyle = createGlobalStyle`
   ${reset}
@@ -19,17 +21,14 @@ type Children = {
   children: React.ReactNode;
 };
 
-export default function Dashboard() {
+export default function Layout() {
   return (
-    <RootLayout>
-      <Home />       
-    </RootLayout>
-    // <div id="wrap">
-    //   <HeaderLayout />
-    //   <main className={style.bodyWrap}>
-    //     <SideNavLayout />
-    //   </main>
-    //   <FooterLayout />
-    // </div>
+    <div id="wrap">
+      <HeaderLayout />
+      <main className={style.bodyWrap}>
+        <SideNavLayout />
+      </main>
+      <FooterLayout />
+    </div>
   );
 }

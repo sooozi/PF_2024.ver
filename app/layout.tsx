@@ -17,9 +17,9 @@ const metadata = {
 }
 
 export default function RootLayout({
-  children,
+  children, // will be a page or nested layout
 }: {
-  children: React.ReactNode;
+  children: React.ReactNode
 }) {
   return (
     <div id="wrap">

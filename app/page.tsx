@@ -17,10 +17,6 @@ const GlobalStyle = createGlobalStyle`
   /* 이곳에 추가적인 전역 스타일을 설정할 수 있습니다. */
 `;
 
-type Children = {
-  children: React.ReactNode;
-};
-
 export default function Layout() {
   return (
     <div id="wrap">

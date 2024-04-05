@@ -6,6 +6,7 @@ import reset from 'styled-reset';
 import FooterLayout from './components/layout/footer';
 import HeaderLayout from './components/layout/header';
 import SideNavLayout from './components/layout/sideNav';
+import Home from './main/page';
 import style from '/src/style/common.module.scss';
 import '/src/style/global.scss';
 import '/src/style/theme.scss';
@@ -23,6 +24,7 @@ export default function Layout() {
       <HeaderLayout />
       <main className={style.bodyWrap}>
         <SideNavLayout />
+        <Home />
       </main>
       <FooterLayout />
     </div>

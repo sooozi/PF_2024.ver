@@ -1,14 +1,10 @@
 // 'use client'
 
 /* css import */
-import style from '/src/style/common.module.scss';
 import '/src/style/global.scss';
 import '/src/style/theme.scss';
 
 /* page import */
-import FooterLayout from './components/layout/footer';
-import HeaderLayout from './components/layout/header';
-import SideNavLayout from './components/layout/sideNav';
 
 // metadata를 컴포넌트 내부에서 정의합니다.
 const metadata = {
@@ -22,13 +18,8 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <div id="wrap">
-      <HeaderLayout />
-      <main className={style.bodyWrap}>
-        <SideNavLayout />
+    <div id="wrapPage">
         {children} {/* 이 부분이 각 페이지별로 변경될 컴포넌트 */}
-      </main>
-      <FooterLayout />
     </div>
   )
 }

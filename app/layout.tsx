@@ -12,7 +12,7 @@ export const metadata = {
   }) {
     return (
       <html lang="en">
-        <body>{children}</body>
+        <body className="test">{children}</body>
       </html>
     )
   }

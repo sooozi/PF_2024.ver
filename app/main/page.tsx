@@ -8,6 +8,8 @@ export default function Home() {
     return (
         <div className={styles.pageWrap}>
             <h2>home page</h2>
+            <h2>home page</h2>
+            <h2>home page</h2>
         </div>
     );
 }

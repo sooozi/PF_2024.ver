@@ -1,17 +1,17 @@
 // 공통 스타일
 .mainWrap {
     height: 100%;
-    background-color: #24292e;
+    background-color: var(--main-bg);
 }
 .bodyWrap {
     display: flex;
     height: 100%;
-    background-color: #24292e;
+    background-color: var(--main-bg);
 }
 .pageWrap {
     height: 100%;
     width: calc(100% - 20vw);
-    background-color: #24292e;
+    background-color: var(--main-bg);
 }
 .pageWrap > * {
     color: #fff;

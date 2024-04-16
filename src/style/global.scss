@@ -366,6 +366,9 @@ html, body, #wrap {
   margin: 0;
   padding: 0;
 }
+#wrap {
+  display: flex;
+}
 a {
   color: inherit;
   text-decoration: none;
